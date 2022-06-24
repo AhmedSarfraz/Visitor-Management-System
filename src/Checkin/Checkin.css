@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.vms-checkin-container {
+  font-family: "Poppins";
+  background-color: #e4e8f4;
+  overflow: auto;
+}
+.vms-checkin-container h2 {
+  font-size: 50px;
+  color: white;
+  line-height: 75px;
+  font-weight: 400;
+  margin-top: 3rem;
+  text-transform: uppercase;
+}
+.vms-checkin-wrapper {
+  padding: 60px 50px !important;
+}
+@media (max-width: 1440px) {
+  .vms-checkin-wrapper {
+    padding: 20px 20px !important;
+  }
+}
+.vms-checkin-container {
+  background-image: url("../assets/checkin-bg.png");
+  height: 100vh;
+  background-size: cover;
+  background-color: #000000;
+  background-position: center !important;
+  background-attachment: fixed;
+  background-repeat: no-repeat !important;
+}
+.vms-checkin-container .card {
+  padding: 45px;
+  margin-top: 80px;
+  border-radius: 19px;
+  box-shadow: -6px 4px 10px rgba(0, 0, 0, 0.14);
+}
+.vms-checkin-container .card-body span {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.vms-checkin-container .btn {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 19px 54px;
+}
+.vms-checkin-container .card-body label {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-bottom: 21px;
+  letter-spacing: 0.15px;
+}
+.vms-checkin-container .card-body .input-group .form-control {
+  border-radius: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 20px;
+  border: 1px solid #979797;
+}
+.vms-checkin-container .card-body .input-group .input-group-prepend {
+  background-color: white !important;
+}
+.vms-checkin-container .card-body .input-group .input-group-text {
+  border: 1px solid #979797;
+  background-color: white;
+  border-radius: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 18px;
+  padding: 15px;
+}
+.vms-checkin-driver-info .form-group label {
+  font-weight: bold !important;
+  padding-bottom: 10px !important;
+}
+.vms-checkin-driver-info .form-group {
+  padding-bottom: 15px;
+}
+.vms-checkin-driver-info .muted-text {
+  color: #a6a6a6;
+  font-size: 16px;
+  line-height: 12px;
+}
+.vms-checkin-thank-you {
+  padding: 7rem 0 !important;
+}
+.vms-checkin-thank-you h3 {
+  font-size: 42px;
+  line-height: 55px;
+}
+.vms-checkin-go-back-link {
+  padding: 0.5rem 1rem;
+  font-weight: 400;
+  font-size: 90%;
+  color: #8f8f8f;
+  cursor: pointer;
+}
+
+.vms-avatar {
+  width: 155px;
+  height: 98%;
+  display: inline-block;
+  border-radius: 50%;
+  border: 7px solid #f0f0eb;
+}

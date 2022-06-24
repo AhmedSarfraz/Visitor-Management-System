@@ -1,0 +1,45 @@
+.vms-sidebar{
+    min-height: 100%;
+    background-color: #393E5C;
+    border-right: 1px solid rgb(212 224 232/63%);
+    box-shadow: 10px 5px 5px rgb(50 50 93 / 10%);
+}
+.vms-sidebar ul li.active{
+    background-color: #9fa2b435;
+    border-left: 2px solid white;
+}
+.vms-sidebar ul li.active a{
+    color: white !important;
+    font-weight: 600;
+}
+.vms-sidebar ul li{
+    list-style: none;
+    text-align: left;
+    padding: 0 10px;
+    margin: 5px 0px;
+}
+.vms-sidebar ul li a:focus,
+.vms-sidebar ul li:hover a{
+    font-weight: 600;
+    color: #fff;
+}
+.vms-sidebar ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media (min-width: 1199px){
+    .vms-sidebar{
+        margin-right: 7rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    .vms-sidebar .nav-link {
+        text-align: center;
+    }
+    .vms-sidebar .nav-link label {
+        display: none;
+    }
+}

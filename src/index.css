@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", "Roboto", BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  font-size: 0.75em;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 13px;
+  background-color: #393E5C;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgb(228, 232, 244);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.no-gutters .col,
+.no-gutters [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.bg-muted {
+  background-color: #f0f0eb;
+}
+.bg-blue {
+  background-color: #393e5c;
+}
+.color-white {
+  color: white !important;
+}
+.badge-danger {
+  color: #fff;
+  background-color: #dc3545;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.border-green {
+  border-color: #009806 !important;
+}
+.btn {
+  border-radius: 10px;
+  border: none;
+}
+.btn-secondary {
+  background-color: #db9360;
+}
+.btn-primary {
+  background-color: #393e5c;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #5c636a;
+}
+
+.vms-header {
+  padding: 0px;
+  min-height: 7vh;
+}
+.vms-header .navbar-nav {
+  width: 100%;
+  display: block;
+}
+.vms-header .navbar-nav .nav-item {
+  display: inline-block;
+}
+.vms-header .navbar-nav .nav-link {
+  color: black;
+  font-weight: 500;
+}
+
+.vms-main-wrapper {
+  min-height: 93vh;
+}
+.vms-queue-sidebar {
+  background-color: white;
+}
+.vms-main-content-container {
+  background-color: #e4e8f4;
+}
+.limit-text {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card {
+  border-radius: 10px;
+}
+.border-none {
+  border: none !important;
+}

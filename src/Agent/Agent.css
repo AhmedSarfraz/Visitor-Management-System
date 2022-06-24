@@ -1,0 +1,160 @@
+.vms-queue-sidebar .vms-queue-sidebar-title{
+    background-color: rgb(57 62 92);
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 7px;
+    font-weight: 800;
+}
+.vms-queue-sidebar .vms-queue-item h3{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.vms-queue-sidebar .vms-queue-item .vms-avatar{
+    border-color: green;
+    border-width: 3px;
+}
+.vms-queue-sidebar .vms-queue-item{
+    padding: 12px 5px 0px 5px !important;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 1rem 0.75rem; 
+    cursor: pointer;
+    width: auto;
+}
+.vms-queue-sidebar .vms-queue-item p {
+    font-size: 1rem;
+    line-height: 15px;
+    text-transform: capitalize;
+}
+.vms-queue-sidebar .vms-queue-item p.vms-queue-item-reasons i,
+.vms-queue-sidebar .vms-queue-item p.vms-queue-item-reasons,
+.vms-queue-sidebar .vms-queue-item p.vms-queue-item-moves{
+    font-size: 0.85rem;
+    font-weight: 400 !important;
+}
+
+.vms-queue-sidebar .vms-queue-item:hover p{
+    color: white;
+}
+.vms-queue-sidebar .vms-queue-item:hover{
+    background-color: #db9360 !important;
+    transition: 0.5s; 
+    transform: scale(1.02);
+}
+
+.vms-main-content-container .vms-queue-content-agent-wrapper{
+    background-color: rgb(57 62 92);
+    color: white;
+}
+.vms-driver-taglist{
+    background-color: #393e5c; 
+    padding:4px 10px 4px 10px !important;
+    color: #fff;
+    margin: 25px 0px;
+}
+.vms-details-list-wrapper{
+    max-height: 45em;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.vms-details-list-wrapper::-webkit-scrollbar {
+    width: 10px;
+  }
+.vms-details-list-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 13px;
+    background-color: #393E5C;
+}
+.vms-details-list-wrapper::-webkit-scrollbar-track {
+    background-color: rgb(228, 232, 244);
+}
+.vms-main-content-container .vms-queue-content-agent-wrapper .vms-avatar{
+    width: 75px;
+    border-width: 5px;
+}
+.vms-main-content-container .vms-queue-content-agent-wrapper .vms-agent-detail-card{
+    vertical-align: middle;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.vms-main-content-container .vms-queue-content-agent-wrapper .vms-agent-detail-card h3{
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+.vms-main-content-container .vms-queue-content-agent-wrapper .vms-agent-detail-card p{
+    font-size: 1rem;
+}
+.vms-queue-content-wrapper{
+    padding: 2rem;
+    max-width: 50%;
+}
+.vms-queue-content-driver-wrapper{
+    margin: 1.5rem 0rem !important;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.vms-queue-content-driver-wrapper .vms-avatar{
+    width: 7rem;
+}
+.vms-queue-content-driver-wrapper .vms-queue-content-driver-details{
+    border-bottom: 2px solid rgb(46, 46, 46);
+}
+.vms-queue-content-driver-wrapper h3{
+    font-size: 36px;
+    padding-top: 1rem;
+}
+.vms-queue-content-driver-wrapper ul{
+    color: #A6A6A6;
+    list-style: decimal-leading-zero;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+    max-width: 100px;
+}
+.vms-queue-content-driver-wrapper p{
+    font-size: 1rem;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+.vms-ticket-modal .modal-body p.vms-driver-reasons,
+.vms-queue-content-driver-wrapper p.vms-driver-reasons{
+    font-weight: 700;
+}
+.vms-ticket-modal .modal-body p.vms-driver-notes,
+.vms-queue-content-driver-wrapper p.vms-driver-notes{
+    text-transform: none !important;
+}
+.vms-ticket-modal .modal-body p.vms-driver-notes{
+    padding-top: 7px;
+    font-weight: 500;
+}
+
+.vms-ticket-modal{
+    max-width: 50% !important;
+}
+.vms-ticket-modal .modal-body{
+    padding: 2rem;
+}
+.vms-ticket-modal .modal-body h2{
+    text-transform: capitalize;
+}
+.vms-ticket-modal .modal-body p{
+    font-size: 1rem;
+    text-transform: capitalize !important;
+}
+.vms-ticket-modal .modal-body .vms-avatar{
+    border-width: 3px !important;
+    border-color: green;
+}
+.vms-ticket-modal .modal-body .vms-driver-data{
+    align-self: center;
+}
+.vms-ticket-modal .modal-body .vms-next-driver-wrapper{
+    background-color: #db936078;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 3px solid rgb(136, 134, 134);
+    border-bottom: 3px solid rgb(136, 134, 134);
+}

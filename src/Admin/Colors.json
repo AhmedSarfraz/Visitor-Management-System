@@ -1,0 +1,7 @@
+{
+    "Departments":  ["#1395BA", "#117899", "#0F5B78", "#0D3C55", "#C02E1D", "#D94E1F", "#F16C20", "#EF8B2C", "#ECAA38", "#EBC844", "#A2B86C", "#5CA793"],
+    "Languages":  ["#FEF0ED", "#FABDA8", "#F09487", "#F17099", "#E15CB7", "#C969D7", "#9F57D4"],
+    "Weekdays":  ["#FEF0ED", "#FABDA8", "#F09487", "#F17099", "#E15CB7", "#C969D7", "#9F57D4"],
+    "Hassan_Departments":  ["#A48BC1", "#A4BF7F", "#629DDD", "#E2918F", "#7173A9", "#0048BA", "#E52B50", "#3B7A57", "#66FF00"],
+    "Old_Departments":  ["#1395BA", "#0F5B78", "#C02E1D", "#F16C20", "#ECAA38", "#A2B86C", "#5CA793"]
+}
