@@ -1,0 +1,2 @@
+# Visitor-Management-System
+Visitor management is the process of tracking everyone who enters your building or your office. A visitor may be a customer, a delivery person, a job applicant, a contractor, a consultant, or any other person. Using this software you will be able to add the visitors in the queue, and the people from the operation can see who is in the queue and they can accept their tickets, in order to serve them.
